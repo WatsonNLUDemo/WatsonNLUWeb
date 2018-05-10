@@ -4,7 +4,7 @@
   "description": "Watson Natural Language Understanding",
   "repository": {
     "type": "git",
-    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+    "url": "https://github.com/jdellaria/WatsonNLUWeb.git"
   },
   "keywords": [
     "rest",
@@ -19,9 +19,9 @@
   "author": "Jon Dellaria",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
+    "url": "https://github.com/jdellaria/WatsonNLUWeb/issues"
   },
-  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "homepage": "https://github.com/jdellaria/WatsonNLUWeb",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "chart.js": "^2.7.1",
