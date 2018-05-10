@@ -1,0 +1,30 @@
+
+The original source was from a tutorial which I modified significantly to meet my specific requirements. The original git is the following:
+https://github.com/spring-guides/tut-react-and-spring-data-rest/tree/master
+
+to run local
+./mvnw spring-boot:run
+
+the access web site by
+
+http://localhost:8080/
+
+to run behind the scenes, locally
+nohup ./mvnw spring-boot:run  &
+
+
+clean package
+mvn clean
+
+build package
+mvn build
+
+Prepare package (this builds the jar file to be deployed to a web server or to cloud foundry)
+mvn package
+
+
+Deploy to bluemix - this command is required because the default buildpack is Liberty which does provide web capabilities, but does not provide the auto connection to the data source without adding the data source name to the code.
+bluemix app push WatsonNLUJD -p target/watsonnluweb-0.0.1-SNAPSHOT.jar -b java_buildpack
+
+to deploy to Pivotal Cloud Foundry
+cf push WatsonNLUJD -p target/watsonnluweb-0.0.1-SNAPSHOT.jar

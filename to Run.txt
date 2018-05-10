@@ -1,0 +1,8 @@
+./mvnw spring-boot:run
+
+the access web site by
+
+http://localhost:8080/
+
+
+nohup ./mvnw spring-boot:run  &

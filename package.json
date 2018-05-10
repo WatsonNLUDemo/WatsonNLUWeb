@@ -1,0 +1,53 @@
+{
+  "name": "watson-natural-language",
+  "version": "0.1.0",
+  "description": "Watson Natural Language Understanding",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "watson",
+    "nlu",
+    "ibm",
+    "react"
+  ],
+  "author": "Jon Dellaria",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
+  },
+  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.7.1",
+    "datatables": "^1.10.13",
+    "datatables-bootstrap": "0.0.1",
+    "font-awesome": "^4.7.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.32.0",
+    "react-chartjs-2": "^2.7.0",
+    "react-chartjs2": "^1.2.1",
+    "react-dom": "^15.3.2",
+    "react-router-dom": "^4.2.2",
+    "reactstrap": "^4.8.0",
+    "rest": "^1.3.1",
+    "sockjs-client": "^1.0.3",
+    "stompjs": "^2.3.3",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
